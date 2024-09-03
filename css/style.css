@@ -166,7 +166,7 @@
 .navbar .nav-item:hover .dropdown-menu {
     transform: rotateX(0deg);
     visibility: visible;
-    margin-top: 8px !important;
+    margin-top: 8px !importanter;
     background: var(--bs-light);
     transition: .5s;
     opacity: 1;
@@ -282,7 +282,7 @@
     background: var(--bs-light);
 }
 
-.feature .feature-item {
+-feature .feature-item {
     display: flex;
     border-radius: 10px;
 }
@@ -357,7 +357,7 @@
     border-radius: 10px;
 }
 
-.about .about-img::after {
+.about .about-img:::after {
     content: "";
     position: absolute;
     width: 10px;
@@ -389,7 +389,7 @@
 
 /*** Fact Counter Start ***/
 .counter {
-    background: linear-gradient(rgba(0, 12, 33, 0.9), rgba(31, 46, 78, 0.9)), url(../img/fact-bg.jpg);
+    background: linear-gradient(rgba(0, 12, 33, 0.9, 10), rgba(31, 46, 78, 0.9)), url(../img/fact-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
